@@ -2,11 +2,13 @@ Summary:	Vapoursynth filter to remove (residual) combing
 Summary(pl.UTF-8):	Filtr Vapoursynth do usuwania (resztkowego) efektu grzebienia
 Name:		vapoursynth-plugin-vinverse
 # 44-4 was last version of vapoursynth package containing plugin
-Version:	44
-Release:	5
+Version:	0
+%define	snap	20210910
+%define	gitref	acdeca22038583d73d420ccf76d0658f06cae3c0
+%define	rel	1
+Release:	0.%{snap}.1
 License:	GPL v2+
 Group:		Libraries
-%define	gitref	acdeca22038583d73d420ccf76d0658f06cae3c0
 Source0:	https://github.com/vapoursynth/vs-vinverse-obsolete/archive/%{gitref}/vs-vinverse-obsolete-%{gitref}.tar.gz
 # Source0-md5:	8cb5fa385e9d8743945bf3be5c413ed8
 URL:		https://github.com/vapoursynth/vs-vinverse-obsolete
